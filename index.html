@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Ma Boutique de Jeux en Ligne</title>
+    <style>
+    /* Styles CSS pour la mise en page et le design */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #0f0f0f; /* Dark background */
+        color: #fff; /* Light text color */
+        padding: 20px;
+        text-align: center; /* Center text */
+    }
+
+    h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Jolie police */
+        color: #ffcc00; /* Yellow */
+        font-size: 36px; /* Font size */
+        font-weight: bold; /* Bold text */
+        text-transform: uppercase; /* Uppercase text */
+    }
+
+    /* Style pour la barre de navigation */
+    .barre-navigation {
+        background-color: #333; /* Dark background for navigation bar */
+        color: #fff; /* Light text color */
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between; /* Align items to the left and right */
+        align-items: center;
+        margin-bottom: 20px; /* Spacing below the navigation bar */
+    }
+
+    .barre-navigation a {
+        color: #fff; /* White text color */
+        text-decoration: none; /* No underline */
+        margin: 0 15px; /* Margin between navigation items */
+        font-size: 18px; /* Font size */
+        text-transform: uppercase; /* Uppercase text */
+    }
+
+    .barre-recherche {
+        display: flex;
+        align-items: center; /* Align items vertically */
+    }
+
+    .barre-recherche input[type="text"] {
+        padding: 8px;
+        width: 200px; /* Width of the search field */
+        border-radius: 5px;
+        border: 1px solid #ccc; /* Grey border */
+        margin-right: 10px; /* Spacing to the right of the search field */
+    }
+
+    .barre-recherche button {
+        padding: 8px 15px;
+        border-radius: 5px;
+        background-color: #ffcc00; /* Yellow button */
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    .barre-recherche button:hover {
+        background-color: #ff9900; /* Darker yellow on hover */
+    }
+
+    .conteneur-produits {
+        display: flex; /* Alignement horizontal des produits */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .produit {
+        background-color: #1a1a1a; /* Dark background for products */
+        padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: left; /* Align text to the left */
+        max-width: 200px; /* Maximum product width */
+        position: relative; /* Position relative for absolute positioning of line */
+    }
+
+    .produit::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px; /* Height of the line */
+        background-color: #00ff00; /* Green color for the line */
+    }
+
+    .produit img {
+        max-width: 100%;
+        border-radius: 5px;
+        margin-bottom: 10px; /* Spacing below the image */
+    }
+
+    .produit h2 {
+        margin-top: 0;
+        font-size: 20px; /* Title font size */
+        color: #006400; /* Dark green */
+    }
+
+    .produit p {
+        margin-bottom: 10px;
+        color: #ccc; /* Light text color */
+    }
+
+    button {
+        background-color: #00ff00; /* Green button */
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: #009900; /* Darker green on hover */
+    }
+    </style>
+</head>
+<body>
+  <div class="barre-navigation">
+        <div class="logo">Pixel <span style="color: #fff;">Fegze</span></div>
+        <div>
+            <a href="https://nadir22zizi.github.io/PixelFegze-acceuille/">Accueil</a>
+            <a href="https://nadir22zizi.github.io/PixelFegze-produit/">Produits</a>
+            <a href="file:///C:/Users/acer/Desktop/gg/page%20de%20actualit%C3%A9s.html#">Actualités</a>
+            <a href="file:///C:/Users/acer/Desktop/gg/page%20de%20contacte%20.html#">Contact</a>
+            <img src="https://tse4.mm.bing.net/th?id=OIP.Q1nlJeGr_g-QXC2DXg_JoQHaHa&pid=Api&P=0&h=180" alt="Recherche" style="width: 30px; height: 30px; cursor: pointer; margin-left: 10px;" onclick="window.location.href='file:///C:/Users/acer/Desktop/gg/page%20de%20rehcerche.html';">
+        </div>
+    </div>
+
+
+<style>
+    .logo {
+        color: #006400; /* Vert foncé */
+        font-weight: bold;
+        font-size: 24px; /* Taille du texte */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Police */
+    }
+</style>
+
+    <div class="conteneur-produits">
+        <div class="produit" onclick="window.location.href='page_confirmation_achat_1.html';" style="cursor: 
+
+pointer;">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.c9WENlOgtkhmNXcupLirqQHaHa&pid=Api&P=0&h=180" alt="Image 
+
+Produit 1" title="Description de l'image 
+
+1">
+            <h2>HyperX Cloud II</h2>
+            <p>HyperX Cloud II – Casque Gaming avec Micro pour PC/PS4/Mac, Rouge</p>
+            <p>Prix du Produit : 82,68€</p>
+        </div>
+
+        <div class="produit" onclick="window.location.href='page_confirmation_achat_2.html';" style="cursor: 
+
+pointer;">
+            <img src="https://tse2.explicit.bing.net/th?id=OIP.A4YF-i58t3fYsWq2-lcxKgHaFj&pid=Api&P=0&h=180" 
+
+alt="Image Produit 2" title="Description de 
+
+l'image 2">
+            <h2>RAZER FILAIRE SOURIS BASILISK V2, NOIR</h2>
+            <p>souris razer basilisk v2 avec fil et disponible sans fil</p>
+            <p>Prix du Produit : 89.99 €</p>
+        </div>
+
+        <div class="produit" onclick="window.location.href='page_confirmation_achat_3.html';" 
+
+style="cursor: pointer;">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.cgLlamFUGSC840gQx2FxDAHaEr&pid=Api&P=0&h=180" alt="Image 
+
+Produit 3" title="Description de l'image 
+
+3">
+            <h2>clavier Razer Huntsman Mini</h2>
+            <p>Razer Huntsman Mini (Switches Rouges) - Clavier Gamer Compact à 60% (Switches Opto-Mécaniques 
+
+Silencieux et Linéaires, Touches en PBT, Câble 
+
+USB-C Détachable) Clavier AZERTY | Noir</p>
+            <p>Prix du Produit : 139,99 €</p>
+        </div>
+
+        <div class="produit" onclick="window.location.href='page_confirmation_achat_4.html';" style="cursor: 
+
+pointer;">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.nb-pFSoQVKO01Izf7GX32QHaE7&pid=Api&P=0&h=180" alt="Image 
+
+Produit 4" title="Description de l'image 
+
+4">
+            <h2>apex pro tkl</h2>
+            <p>SteelSeries Clavier HyperMagnetic gaming Apex Pro TKL Wireless - rapide - Format sans pavé numérique 
+
+adapté à l’esport - Actionnement 
+
+ajustable - Bluetooth - 2,4 GHz - USB-C - Français AZERTY</p>
+            <p>Prix du Produit : 279,99 €</p>
+        </div>
+
+        <div class="produit" onclick="window.location.href='page_confirmation_achat_5.html';" style="cursor: 
+
+pointer;">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.wVNSdKmcwk2k6lAldS7pAAHaEc&pid=Api&P=0&h=180" alt="Image 
+
+Produit 5" title="Description de l'image 
+
+5">
+            <h2>MSI NVIDIA GeForce RTX 3060 Ventus 2X 12G OC Noir</h2>
+            <p>clicez ici pour voir la description</p>
+            <p>Prix du Produit : 349,99 €</p>
+        </div>
+
+        <div class="produit" onclick="window.location.href='page_confirmation_achat_6.html';" style="cursor: 
+
+pointer;">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.mqKyo_q_cachMEZN5WDc-AHaEl&pid=Api&P=0&h=180" alt="Image 
+
+Produit 6" title="Description de l'image 
+
+6">
+            <h2>KOORUI Ecran PC Gamer 24 Pouces, 165Hz 1080p 1ms IPS, Adaptive Sync, Moniteur PC HDMI, Angle de 
+
+Vision de 178°, Montage Mural VESA (FHD 
+
+1920x1080, DisplayPort) Noir</h2>
+            <p>pour plus de detaille sur la Description de ce produit clicez ici</p>
+            <p>Prix du Produit : 149,99 €</p>
+        </div>
+
+        <div class="produit" onclick="window.location.href='page_confirmation_achat_7.html';" style="cursor: 
+
+pointer;">
+            <img src="https://m.media-amazon.com/images/I/51GKKlXjJ4L._AC_SY355_.jpg" alt="Image Produit 7" 
+
+title="Description de l'image 7">
+            <h2>Intel® Core™ i9-14900K Desktop Processor 24 Cores (8 P-Cores + 16 E-Cores) up to 6.0 GHz</h2>
+            <p>pour plus de detaille sur la Description de ce produit clicez ici</p>
+            <p>Prix du Produit : 623,36 €</p>
+        </div>
+
+        <div class="produit" onclick="window.location.href='page_confirmation_achat_8.html';" style="cursor: 
+
+pointer;">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.wC68B7YS6FojvNE2c3dpHAHaHa&pid=Api&P=0&h=180" alt="Image 
+
+Produit 8" title="Description de l'image 
+
+8">
+            <h2>Razer Kraken V3 Pro Wireless - Casque Gaming sans Fil avec Technologie Haptique (Casque avec Retour 
+
+Sensoriel Tactile, Haut-parleurs Titanium 
+
+de 50mm, Son Spatial THX) Noir</h2>
+            <p>pour plus de detaille sur la Description de ce produit clicez ici</p>
+            <p>Prix du Produit : 249,99 €</p>
+        </div>
+    </div>
+</body>
+</html>
